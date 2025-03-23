@@ -1,0 +1,51 @@
+
+// style.jss.js
+
+const styles = {
+  container: {
+    backgroundColor: '#d0e7ff', // light sky background
+    minHeight: '100vh',
+    padding: '20px',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    fontFamily: '"Roboto", sans-serif',
+  },
+  title: {
+    fontSize: '2.5rem',
+    fontWeight: 'bold',
+    color: '#003366', // deep blue
+    marginBottom: '20px',
+  },
+  weatherBox: {
+    backgroundColor: '#ffffff',
+    borderRadius: '10px',
+    padding: '20px',
+    width: '300px',
+    boxShadow: '0 4px 8px rgba(0,0,0,0.1)',
+    textAlign: 'center',
+  },
+  city: {
+    fontSize: '1.5rem',
+    color: '#333333',
+    marginBottom: '10px',
+  },
+  temp: {
+    fontSize: '3rem',
+    color: '#ff6600', // warm color for temp
+    marginBottom: '10px',
+  },
+  description: {
+    fontSize: '1.2rem',
+    color: '#666666',
+    marginBottom: '15px',
+  },
+  icon: {
+    width: '70px',
+    height: '70px',
+  },
+};
+
+export default styles;
+
+
